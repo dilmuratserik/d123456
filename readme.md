@@ -16,8 +16,10 @@ $q->where('phone', 'like', '%' . $search_value . '%')
 <li>Отсутствие валидации данных</li>
 </ul>
 Запуск:
-# composer install
-# php database/migrate.php
-# php database/faker.php
-# php -S localhost:8000 
+<ul>
+<li>composer install</li>
+<li>php database/migrate.php</li>
+<li>php database/faker.php</li>
+<li>php -S localhost:8000</li>
+</ul>
 
