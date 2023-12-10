@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-
+require 'src/Database.php';
 use PDO;
 
 $db = Database::connect();

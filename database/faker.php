@@ -3,7 +3,7 @@
 use Faker\Factory;
 
 require 'vendor/autoload.php';
-require 'Database.php';
+require 'src/Database.php';
 
 $faker = Factory::create();
 $db = Database::connect();
