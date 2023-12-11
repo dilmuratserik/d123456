@@ -18,6 +18,7 @@ $q->where('phone', 'like', '%' . $search_value . '%')
 Запуск:
 <ul>
 <li>composer install</li>
+<li>src/Database.php connection to database </li>
 <li>php database/migrate.php</li>
 <li>php database/faker.php</li>
 <li>php -S localhost:8000</li>
